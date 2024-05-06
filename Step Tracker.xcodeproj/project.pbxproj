@@ -11,6 +11,7 @@
 		4D6DF5072BDD8D8000D48C30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6DF5062BDD8D8000D48C30 /* ContentView.swift */; };
 		4D6DF5092BDD8D8200D48C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6DF5082BDD8D8200D48C30 /* Assets.xcassets */; };
 		4D6DF50D2BDD8D8200D48C30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6DF50C2BDD8D8200D48C30 /* Preview Assets.xcassets */; };
+		4DED944A2BE93AAE002305C2 /* HealthKitPermissionPrimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DED94492BE93AAE002305C2 /* HealthKitPermissionPrimingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4D6DF5082BDD8D8200D48C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D6DF50A2BDD8D8200D48C30 /* Step_Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Step_Tracker.entitlements; sourceTree = "<group>"; };
 		4D6DF50C2BDD8D8200D48C30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4DED94492BE93AAE002305C2 /* HealthKitPermissionPrimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPermissionPrimingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				4D6DF5042BDD8D8000D48C30 /* Step_TrackerApp.swift */,
+				4DED94492BE93AAE002305C2 /* HealthKitPermissionPrimingView.swift */,
 				4D6DF5062BDD8D8000D48C30 /* ContentView.swift */,
 				4D6DF5082BDD8D8200D48C30 /* Assets.xcassets */,
 				4D6DF50A2BDD8D8200D48C30 /* Step_Tracker.entitlements */,
@@ -141,6 +144,7 @@
 			files = (
 				4D6DF5072BDD8D8000D48C30 /* ContentView.swift in Sources */,
 				4D6DF5052BDD8D8000D48C30 /* Step_TrackerApp.swift in Sources */,
+				4DED944A2BE93AAE002305C2 /* HealthKitPermissionPrimingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
