@@ -49,12 +49,12 @@ struct DashboardView: View {
                                         .foregroundStyle(.pink)
                                     Text("Avg: 10K Steps")
                                         .font(.caption)
-                                        
+                                    
                                 }
                                 Spacer()
                                 
                                 Image(systemName: "chevron.right")
-                                   
+                                
                             }
                             .padding(.bottom, 12)
                         }
@@ -68,19 +68,16 @@ struct DashboardView: View {
                     .background(RoundedRectangle(cornerRadius: 12).fill(Color(.secondarySystemBackground)))
                     
                     VStack(alignment: .leading) {
-                       
-                            VStack(alignment: .leading){
-                                Label("Averages", systemImage: "calendar")
-                                    .font(.title3.bold())
-                                    .foregroundStyle(.pink)
-                                Text("Last 28 days")
-                                    .font(.caption)
-                                    .foregroundStyle(.secondary)
-                            }
-                           
                         
+                        VStack(alignment: .leading){
+                            Label("Averages", systemImage: "calendar")
+                                .font(.title3.bold())
+                                .foregroundStyle(.pink)
+                            Text("Last 28 days")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
                         .padding(.bottom, 12)
-                        
                         RoundedRectangle(cornerRadius: 12)
                             .foregroundStyle(.secondary)
                             .frame(height: 240)
@@ -91,9 +88,7 @@ struct DashboardView: View {
             }
             .padding()
             .task {
-                await hkManager.addSimulatorData()
                 isShowingPermissionPrimingSheet = !hasSeenPermissionPriming
-                
             }
             .navigationTitle("Dashboard")
             .navigationDestination(for: HealthMetricContext.self) { metric in
@@ -104,7 +99,7 @@ struct DashboardView: View {
             } content: {
                 HealthKitPermissionPrimingView(hasSeen: $hasSeenPermissionPriming)
             }
-
+            
         }
         .tint(isSteps ? .pink : .indigo)
     }

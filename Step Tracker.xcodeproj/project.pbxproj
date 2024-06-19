@@ -59,11 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				4D6DF5042BDD8D8000D48C30 /* Step_TrackerApp.swift */,
-				4DED94492BE93AAE002305C2 /* HealthKitPermissionPrimingView.swift */,
-				4D6DF5062BDD8D8000D48C30 /* ContentView.swift */,
-				4DED944B2BE95080002305C2 /* HealthKitManager.swift */,
 				4D6DF5062BDD8D8000D48C30 /* DashboardView.swift */,
 				4D5E88A02BE18698001AD465 /* HealthDataListView.swift */,
+				4DED94492BE93AAE002305C2 /* HealthKitPermissionPrimingView.swift */,
+				4DED944B2BE95080002305C2 /* HealthKitManager.swift */,
 				4D6DF5082BDD8D8200D48C30 /* Assets.xcassets */,
 				4D6DF50A2BDD8D8200D48C30 /* Step_Tracker.entitlements */,
 				4D6DF50B2BDD8D8200D48C30 /* Preview Content */,
